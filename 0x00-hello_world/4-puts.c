@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-use strict;
-use warning;
+## use strict; ##
+## use warning; ##
 
 int main(void)
 {
