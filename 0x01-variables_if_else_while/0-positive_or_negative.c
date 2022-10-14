@@ -2,11 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * picking random numbers
+ * main - Entry point
  *
- * main - print if the number is positive or negative
- *
- * Return: 0 on success
+ * Return: Always 0 on (Success)
  */
 int main(void)
 {
