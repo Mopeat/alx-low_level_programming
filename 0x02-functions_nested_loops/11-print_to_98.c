@@ -1,25 +1,20 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_to_98 - function to print natural numbers from 0 to 98
- * Description: print natural numbers from n to 98
- * @n: natural number
- * Return: n
+ * main - print natural numbers from n to 98
+ * 
+ * Return: Always 0
  */
 
-void print_to_98(int n)
+int main(void)
 
 {
-	int i;
-	{
-		if (i = n; i <= 98; i++)
-	}
-		{
-			else if (i = n; i >= 98; 1--)
-		{
-printf("%d", n);
-printf(",");
-printf(" ");
-printf("\n");
-return (0);
+	print_times_table(3);
+	_putchar('\n');
+	print_times_table(5);
+	_putchar('\n');
+	print_times_table(98);
+	_putchar('\n');
+	print_times_table(12);
+	return (0);
 }
