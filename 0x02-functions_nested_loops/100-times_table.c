@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * print_times_table - print times table of the input n
+ *
  * @n: the value of the times table to be printed
  */
 
