@@ -12,16 +12,14 @@ void print_to_98(int n)
 {
 	int i;
 	{
-	if (i = n; i <= 98; i++)
-	{
-	else if (i = n; i >= 98; 1--)
-	{
-	printf("%d", n);
-	printf(",");
-	printf(" ");
-	printf("\n");
+		if (i = n; i <= 98; i++)
 	}
-	}
-	}
-	return (0);
+		{
+			else if (i = n; i >= 98; 1--)
+		{
+printf("%d", n);
+printf(",");
+printf(" ");
+printf("\n");
+return (0);
 }
