@@ -13,9 +13,9 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10) /* i never increments, it will always be 0 */
+	/* while (i < 10) i never increments, it will always be 0 */
 	{
-		putchar(i); /* putchar is used to print single character */
+		putchar(i);
 	}
 
 	printf("Infinite loop avoided! \\o/\n");
