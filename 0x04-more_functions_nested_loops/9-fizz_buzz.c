@@ -13,25 +13,25 @@ int main(void)
 	{
 		if ((x % 3 == 0) && (x % 5 == 0))
 		{
-			printf("%s ", "FizzBuzz");
-			continue;
+			printf("FizzBuzz");
 		}
 		else if (x % 5 == 0)
 		{
-			printf("%s ", "Buzz");
-			continue;
+			printf("Buzz");
 		}
 		else if (x % 3 == 0)
 		{
-			printf("%s ", "Fizz");
-			continue;
+			printf("Fizz");
 		}
 		else
 		{
-		printf("%d ", x);
+		printf("%d", x);
+		}
+		if (x != 100)
+		{
+			printf(" ");
 		}
 	}
 	printf("\n");
 	return (0);
 }
-
