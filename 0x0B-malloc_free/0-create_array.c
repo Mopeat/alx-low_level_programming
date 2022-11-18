@@ -21,7 +21,7 @@ if (iArray == NULL)
 return (NULL);
 
 i = 0;
-while (i > size)
+while (i < size)
 	{
 	iArray[i] = c;
 	i++;
