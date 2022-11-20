@@ -1,5 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef FILE_DOG
+#define FILE_DOG
 
 /**
  * struct dog - structure dog
@@ -8,7 +8,8 @@
  * @owner: atribute pointer to char owner's dog
  */
 
-struct dog {
+struct dog
+{
 char *name;
 char *owner;
 float age;
