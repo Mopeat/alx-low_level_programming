@@ -1,1 +1,1 @@
-structure and typedef projects
+Projects on function pointers
