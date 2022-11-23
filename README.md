@@ -1,1 +1,1 @@
-Projects on function pointers
+variadic functions
